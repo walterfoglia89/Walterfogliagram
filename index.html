@@ -3,66 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Walter - Sviluppatore Freelance</title>
+  <title>Walter Foglia - Soluzioni digitali su misura</title>
   <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
-    header { background: #2b2b2b; color: white; padding: 1.5rem; text-align: center; }
-    nav a { margin: 0 1rem; color: white; text-decoration: none; font-weight: bold; }
-    section { padding: 2rem; max-width: 800px; margin: auto; }
-    h2 { border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; }
-    form textarea, form input { width: 100%; padding: 0.5rem; margin-top: 0.5rem; }
-    form button { padding: 0.7rem 1.5rem; background: #2b2b2b; color: white; border: none; cursor: pointer; margin-top: 1rem; }
-    footer { background: #2b2b2b; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #f4f4f4;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #121212;
+      padding: 2rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #00d4ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    h2 {
+      border-bottom: 2px solid #00d4ff;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    form textarea, form input {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border: none;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 0.75rem 1.5rem;
+      background: #00d4ff;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+    form button:hover {
+      background: #00a8cc;
+    }
+    footer {
+      background: #121212;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Walter - Sviluppatore Freelance</h1>
+    <h1>Walter Foglia - Soluzioni digitali su misura</h1>
     <nav>
       <a href="#chi-sono">Chi sono</a>
-      <a href="#sviluppa">Sviluppa il tuo progetto</a>
+      <a href="#sviluppa">Cosa posso fare per te</a>
+      <a href="#contatto">Contatti</a>
       <a href="#feedback">Feedback</a>
     </nav>
   </header>
 
   <section id="chi-sono">
     <h2>Chi sono</h2>
-    <p>Mi chiamo Walter e sono uno sviluppatore freelance. Aiuto persone e attività a realizzare siti web, app mobile e strumenti su misura per risparmiare tempo e lavorare meglio. Lavoro con tecnologie come Web, Node.js, Python e Flutter.</p>
+    <p>Mi chiamo Walter e aiuto persone, liberi professionisti e piccole attività a portare le loro idee online. Creo siti web semplici da usare, applicazioni personalizzate e strumenti su misura per lavorare meglio, risparmiare tempo e farsi trovare da nuovi clienti.</p>
+    <p>Se non sei pratico di tecnologia, non preoccuparti: parliamo chiaro, senza gergo tecnico. Io mi occupo del "come", tu dimmi solo cosa vuoi ottenere.</p>
   </section>
 
   <section id="sviluppa">
-    <h2>Sviluppa il tuo progetto</h2>
-    <p>Hai un'idea? Ti serve un sito, un'app o un sistema che ti faccia risparmiare tempo nella tua attività? Posso aiutarti a trasformarla in qualcosa di reale, anche con un budget contenuto.</p>
-    <p><strong>Contattami:</strong></p>
+    <h2>Cosa posso fare per te</h2>
     <ul>
-      <li>Email: <a href="mailto:walter@email.it">walter.foglia@gmail.com</a></li>
-      <li>WhatsApp: <a href="https://wa.me/391234567890">+39 3280844734</a></li>
-      <li>Telegram: <a href="https://t.me/walterdev">@walterfogliagram</a></li>
+      <li><strong>Sito web professionale</strong>: per farti trovare online e presentarti al meglio</li>
+      <li><strong>Pagina di vendita</strong>: per promuovere un prodotto, un corso o un servizio</li>
+      <li><strong>Strumenti personalizzati</strong>: per gestire appuntamenti, messaggi automatici o clienti</li>
+      <li><strong>App semplice per smartphone</strong>: utile e su misura per il tuo lavoro</li>
+      <li><strong>Bot per Whatsapp, Telegram o Discord</strong>: ideali per community, squadre o gruppi</li>
     </ul>
+    <p><strong>✅ Offerta lancio: Soddisfatto o rimborsato.</strong> Provalo senza rischi!</p>
+  </section>
+
+  <section id="contatto">
+    <h2>Contattami</h2>
+    <p>Scrivimi per raccontarmi cosa vuoi realizzare. Anche se hai solo un’idea vaga, parliamone: ti aiuto a darle forma.</p>
+    <ul>
+      <li>Email: <a href="mailto:walter.foglia@gmail.com">walter.foglia@gmail.com</a></li>
+      <li>Telegram: <a href="https://t.me/Walterfogliagram">@Walterfogliagram</a></li>
+    </ul>
+
+    <form name="contatto" netlify action="/grazie.html" method="POST">
+      <input type="hidden" name="form-name" value="contatto">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="messaggio">Messaggio</label>
+      <textarea id="messaggio" name="messaggio" rows="4" required></textarea>
+
+      <button type="submit">Invia messaggio</button>
+    </form>
   </section>
 
   <section id="feedback">
     <h2>Feedback</h2>
-    <p>Se hai lavorato con me, lascia qui un tuo commento:</p>
+    <p>Hai già lavorato con me? Lascia qui un commento: lo leggerò personalmente!</p>
     <form name="feedback" netlify action="/grazie.html" method="POST">
-      <p>
-        <label>Nome:<br>
-          <input type="text" name="nome" required>
-        </label>
-      </p>
-      <p>
-        <label>Messaggio:<br>
-          <textarea name="messaggio" rows="4" required></textarea>
-        </label>
-      </p>
-      <p>
-        <button type="submit">Invia feedback</button>
-      </p>
+      <input type="hidden" name="form-name" value="feedback">
+      <label for="nome-feedback">Nome</label>
+      <input type="text" id="nome-feedback" name="nome" required>
+
+      <label for="messaggio-feedback">Messaggio</label>
+      <textarea id="messaggio-feedback" name="messaggio" rows="4" required></textarea>
+
+      <button type="submit">Invia feedback</button>
     </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 Walter Freelance. Tutti i diritti riservati.</p>
+    <p>&copy; 2025 Walter Foglia. Tutti i diritti riservati.</p>
   </footer>
 </body>
 </html>
