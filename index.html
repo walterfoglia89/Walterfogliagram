@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walter - Sviluppatore Freelance</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header { background: #2b2b2b; color: white; padding: 1.5rem; text-align: center; }
+    nav a { margin: 0 1rem; color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem; max-width: 800px; margin: auto; }
+    h2 { border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; }
+    form textarea, form input { width: 100%; padding: 0.5rem; margin-top: 0.5rem; }
+    form button { padding: 0.7rem 1.5rem; background: #2b2b2b; color: white; border: none; cursor: pointer; margin-top: 1rem; }
+    footer { background: #2b2b2b; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Walter - Sviluppatore Freelance</h1>
+    <nav>
+      <a href="#chi-sono">Chi sono</a>
+      <a href="#sviluppa">Sviluppa il tuo progetto</a>
+      <a href="#feedback">Feedback</a>
+    </nav>
+  </header>
+
+  <section id="chi-sono">
+    <h2>Chi sono</h2>
+    <p>Mi chiamo Walter e sono uno sviluppatore freelance. Aiuto persone e attività a realizzare siti web, app mobile e strumenti su misura per risparmiare tempo e lavorare meglio. Lavoro con tecnologie come Web, Node.js, Python e Flutter.</p>
+  </section>
+
+  <section id="sviluppa">
+    <h2>Sviluppa il tuo progetto</h2>
+    <p>Hai un'idea? Ti serve un sito, un'app o un sistema che ti faccia risparmiare tempo nella tua attività? Posso aiutarti a trasformarla in qualcosa di reale, anche con un budget contenuto.</p>
+    <p><strong>Contattami:</strong></p>
+    <ul>
+      <li>Email: <a href="mailto:walter@email.it">walter@email.it</a></li>
+      <li>WhatsApp: <a href="https://wa.me/391234567890">+39 123 456 7890</a></li>
+      <li>Telegram: <a href="https://t.me/walterdev">@walterdev</a></li>
+    </ul>
+  </section>
+
+  <section id="feedback">
+    <h2>Feedback</h2>
+    <p>Se hai lavorato con me, lascia qui un tuo commento:</p>
+    <form name="feedback" method="POST" data-netlify="true">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="messaggio">Messaggio</label>
+      <textarea id="messaggio" name="messaggio" rows="4" required></textarea>
+
+      <button type="submit">Invia feedback</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Walter Freelance. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+</html>
